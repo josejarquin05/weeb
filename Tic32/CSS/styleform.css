@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000; 
+    color: #ffffff; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contenedor {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nombre, 
+.direccion, 
+.datos, 
+.contacto, 
+.terminos, 
+.comentarios {
+    margin-bottom: 15px;
+}
+
+.nombre-apellido {
+    display: flex; 
+    width: 100%; 
+}
+
+.nombre {
+    flex-grow: 1; 
+    padding: 8px;
+    margin: 5px 0;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.apellido {
+    flex-grow: 1.1; 
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+textarea#msg {
+    width: 100%;
+}
+
+.direccion,
+.comentarios,
+.datos {
+    text-align: left;
+    display: block;
+}
+
+.cp {
+    width: 30%; 
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+#municipio,
+#estado{
+    width: 32%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+#remitir {
+    text-align: right;
+}
+
+button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+#direccion {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+#telefono,
+#fechanaci {
+    width: 48%; 
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.terminos {
+    text-align: left;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <div id="contenedor">
+        <form method="post">
+            <p>
+                <label for="nombre">Nombre</label> <br> <br> <!--Label etiqueta en linea-->
+                <input type="text" id="nombre" name="nombre" autofocus required placeholder="Escriba su nombre"> <br>
+            </p> 
+            <p> 
+                <label for="apellidos">Apellidos</label> <br> <br> <!--Label etiqueta en linea-->
+                <input type="text" id="apellidos" name="apellidos" size="40" required placeholder="Escribir sus apellidos"> <!--autofocus es un atributo-->
+
+            </p> 
+            <p>
+                <label for="estatus">Estatus</label><br>
+                <input type="text"name="estatus"value="activo" readonly title="Este valor es solo de lectura">
+            </p>
+            <p>
+                <label for="contraseña">Su contraseña</label><br>
+                <input type="password" name="contraseña" id="contraseña" required placeholder="Ejemplo: Antonio50#">
+            </p>
+            <p>
+                <input type="hidden" name="Nip" value="765">
+            </p>
+            <p>
+                <label for="navegador">Navegador favorito</label>
+                <select name="Navegador" id="Navegador">
+                    <option value="Chrome">Chrome</option>
+                    <option value="Opera">Opera</option>
+                    <option value="Edge">Edge</option>
+                    <option value="Safari">Safari</option>
+                    <option value="FireFox">FireFox</option>
+                </select>
+            </p>  
+            <p>
+                <input type="submit" name="Enviar" value="Enviar">
+            </p>        
+        </form>
+    </div>
+</body>
+</html>

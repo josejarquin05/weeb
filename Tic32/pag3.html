@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <!-- class para varios elementos e id solo para un elemento -->
+    <div id="contenedor" >
+        <a id="home"></a>
+        <!-- Dentro del contenedor se incluye un menú con etiqueta en bloque -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Imagen de fondo en el encabezado -->
+        <header>
+            <h1>Auroras Boreales</h1>
+        </header>
+        <!-- Información más importante de la página -->
+         <main>
+            <h2>¿Qué son las Auroras Boreales?</h2>
+            <p class="impar">
+                Las auroras boreales son un fenómeno natural que se produce cuando las partículas cargadas del sol chocan con la atmósfera terrestre, provocando que los átomos de la atmósfera se exciten y emitan luz. 
+            </p>
+            <h3>¿Qué efecto generan las Auroras Boreales?</h3>
+            <p class="par">
+                Las auroras boreales son un espectáculo de luces que parecen bailar en el cielo nocturno, con una paleta de colores que va del verde al azul y a veces incluso del rosa al violeta.
+            </p>
+            <a id="servicios"></a>
+            <h4>¿Qué colores tienen las Auroras Boreales?</h4>
+            <p>
+                Los colores de las auroras boreales se deben a la interacción entre las partículas del viento solar y los elementos químicos de la atmósfera, como el oxígeno y el nitrógeno. La variedad de colores se explica por la altitud a la que se producen las colisiones y la composición química de la atmósfera. Los colores más comunes son azul, rojo, violeta, rosa y verde.
+            </p>
+            <h5>¿Dónde y cuándo se pueden ver las Auroras Boreales?</h5>
+            <p class="par">
+                Las auroras boreales se pueden ver en otoño e invierno, y en algunos lugares se pueden observar desde finales de septiembre hasta finales de marzo. Las zonas donde se pueden ver auroras boreales son: Laponia noruega, Cabo Norte, Reikiavik, Mares cercanos a Steltjarnarnes.
+            </p>
+            <a id="blog"></a>
+         </main>
+         <!--Aside es un contenedor-->
+         <aside>
+            <h2>Formulario de contacto</h2>
+            <hr>
+            <div id="panel">
+                <div>
+                    <label for="correo">Correo Electronico</label><br>
+                    <input type="text"id="correo" name="correo" placeholder="Escriba aqui su correo"required class=caja>
+                </div>
+                <div>
+                    <label for="mensaje">Su Mensaje</label><br>
+                    <textarea name="mensaje" id="mensaje" required class="caja altura">
+
+                    </textarea>                
+                </div>
+                <div>
+                <button type="submit" class="caja boton"><b>Enviar</b></button>
+                </div>
+            </div>
+         </aside>
+         <a id="contacto"></a>
+         <!-- Indica el pie de la página, como derechos reservados o contactos -->
+          <footer>
+            <small>&#169;Derechos Reservados,2024</small>
+          </footer>
+    </div>
+</body>
+</html>
